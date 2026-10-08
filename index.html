@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Aradhana Bishnoi - 1st Year B.Tech Computer Science and Engineering Student at JECRC University, Jaipur.">
+  <meta name="author" content="Aradhana Bishnoi">
+  <title>Aradhana Bishnoi | CSE Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Aradhana Bishnoi Home">
+        <span class="logo-code">&lt;</span>Aradhana<span class="logo-accent">.B</span><span class="logo-code">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Action & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline nav-cta">Get in Touch</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Home / Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>1st Year Undergrad &bull; Computer Science</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Aradhana Bishnoi</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            B.Tech Computer Science and Engineering Student
+          </p>
+
+          <p class="hero-description">
+            First-year engineering student at JECRC University, Jaipur, passionate about building a strong foundation in core computer science, software development, and logical problem solving. Eager to learn, code, and create impactful technology.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Social Links with Placeholders -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <!-- GitHub Placeholder -->
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile (Placeholder)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+            </a>
+            <!-- LinkedIn Placeholder -->
+            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile (Placeholder)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Terminal Card -->
+        <div class="hero-visual">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span class="terminal-title">aradhana@jecrc:~$ profile</span>
+            </div>
+            <div class="terminal-body">
+              <p class="term-line"><span class="term-prompt">&gt;</span> <span class="term-key">student</span> = {</p>
+              <p class="term-line indent"><span class="term-prop">name:</span> <span class="term-str">"Aradhana Bishnoi"</span>,</p>
+              <p class="term-line indent"><span class="term-prop">university:</span> <span class="term-str">"JECRC University"</span>,</p>
+              <p class="term-line indent"><span class="term-prop">degree:</span> <span class="term-str">"B.Tech CSE (1st Year)"</span>,</p>
+              <p class="term-line indent"><span class="term-prop">location:</span> <span class="term-str">"Jaipur, Rajasthan"</span>,</p>
+              <p class="term-line indent"><span class="term-prop">languages:</span> [<span class="term-str">"Python"</span>, <span class="term-str">"Java"</span>, <span class="term-str">"HTML"</span>],</p>
+              <p class="term-line indent"><span class="term-prop">mindset:</span> <span class="term-str">"Problem Solving & Continuous Learning"</span></p>
+              <p class="term-line">};</p>
+              <p class="term-line term-cursor"><span class="term-prompt">&gt;</span> ready_to_collaborate = <span class="term-bool">true</span><span class="blinking-cursor">_</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Getting To Know Me</h2>
+          <p class="section-subtitle">An aspiring software engineer at the starting line of an exciting tech journey.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card narrative-card">
+            <h3 class="about-heading">Curious, Driven & Committed to Growth</h3>
+            <p>
+              I am currently in my <strong>1st Year of B.Tech in Computer Science and Engineering</strong> at <strong>JECRC University, Jaipur</strong>. My passion lies in understanding how software systems work under the hood and using structured logical thinking to solve real-world problems.
+            </p>
+            <p>
+              Beginning with programming fundamentals in Python and object-oriented concepts in Java, I am actively honing my analytical ability through consistent coding and algorithmic problem solving. In addition, I have hands-on experience structuring responsive web interfaces using semantic HTML and clean styling.
+            </p>
+            <p>
+              As a dedicated first-year undergraduate, I am focused on academic excellence, hands-on project work, exploring open-source tools, and collaborating with fellow peers and mentors.
+            </p>
+          </div>
+
+          <div class="about-card highlights-card">
+            <h3 class="about-heading">Quick Highlights</h3>
+            <div class="highlights-list">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Current Program</h4>
+                  <p class="highlight-desc">B.Tech Computer Science and Engineering</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Academic Stage</h4>
+                  <p class="highlight-desc">1st Year Undergraduate (Freshman)</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Location</h4>
+                  <p class="highlight-desc">Jaipur, Rajasthan, India</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Key Interests</h4>
+                  <p class="highlight-desc">Software Development &bull; Problem Solving &bull; Web Tech</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Education Section -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">My academic foundations and learning journey in Computer Science.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- College Timeline Item -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge">Currently Pursuing</div>
+              <h3 class="timeline-title">Bachelor of Technology (B.Tech)</h3>
+              <h4 class="timeline-subtitle">Computer Science and Engineering</h4>
+              <p class="timeline-institution">
+                <strong>JECRC University</strong> &bull; Jaipur, Rajasthan
+              </p>
+              <div class="timeline-meta">
+                <span class="meta-tag">1st Year</span>
+                <span class="meta-tag">Full Time</span>
+              </div>
+              <p class="timeline-desc">
+                Engaged in foundational coursework covering Programming Methodologies, Data Logic, Discrete Mathematics, and Computing Systems. Actively participating in department tech sessions and academic assignments.
+              </p>
+            </div>
+          </div>
+
+          <!-- Senior Secondary School Placeholder Item -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge placeholder-badge">Completed</div>
+              <h3 class="timeline-title">Senior Secondary Education (Class XII)</h3>
+              <h4 class="timeline-subtitle">Science Stream (PCM)</h4>
+              <p class="timeline-institution">
+                <strong>[Your School Name Placeholder]</strong> &bull; [City, State]
+              </p>
+              <div class="timeline-meta">
+                <span class="meta-tag">[Board / Year Placeholder]</span>
+              </div>
+              <p class="timeline-desc text-muted">
+                Developed a strong analytical mindset in Mathematics, Physics, and analytical logic before transitioning into university engineering studies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Core programming languages, markup, and problem-solving disciplines I focus on.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Python Card -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper python-accent">
+                <!-- Python SVG Icon -->
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                  <path d="M11.914 0C5.82 0 6.2 2.656 6.2 2.656l.006 2.752h5.808v.825H3.92S0 5.762 0 11.905c0 6.14 3.42 5.925 3.42 5.925h2.04v-2.883s-.11-3.42 3.364-3.42h5.772s3.256.053 3.256-3.15V3.15S18.37 0 11.914 0zm-3.32 1.838a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1zm3.492 22.162c6.094 0 5.714-2.656 5.714-2.656l-.006-2.752h-5.808v-.825h8.094s3.92.471 3.92-5.672c0-6.14-3.42-5.925-3.42-5.925h-2.04v2.883s.11 3.42-3.364 3.42H8.432s-3.256-.053-3.256 3.15v5.225s-.518 3.15 5.938 3.15zm3.32-1.838a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1z"/>
+                </svg>
+              </div>
+              <div class="skill-title-block">
+                <h3 class="skill-name">Python</h3>
+                <span class="skill-level-badge">Language</span>
+              </div>
+            </div>
+            <p class="skill-description">
+              Writing clean, readable scripts for problem solving, algorithmic challenges, basic data structures, and automation tasks.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Syntax & Logic</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">Scripting</span>
+            </div>
+          </div>
+
+          <!-- Java Card -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper java-accent">
+                <!-- Java SVG Icon -->
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                  <path d="M8.85 16.82s-.9 0-1.8.15c-1.55.25-2.95.8-2.95 2.15 0 2.45 4.6 2.85 8.25 2.85 3.35 0 6.65-.6 6.65-2.65 0-1.45-1.5-2.05-3.3-2.35-.95-.15-2.15-.15-2.15-.15s2.4-1.35 4.55-1.35c.7 0 1.25.1 1.7.3-1.65-2.85-6.25-3.1-6.25-3.1s1.85-.9 3.95-.9c.45 0 .85.05 1.25.1-2.45-2.9-7.3-2.95-7.3-2.95s1.95-1.05 4.5-1.05c-4.4-1.95-9.35 1.4-9.35 4.9 0 2.3 1.95 3.7 4.7 4.05zm2.75 3.55c-2.3 0-4.8-.35-4.8-1.55 0-.85 1.7-1.2 3.4-1.35.45-.05.9-.05 1.4-.05 2.3 0 4.8.4 4.8 1.55 0 .8-1.7 1.2-3.4 1.35-.45.05-.95.05-1.4.05zM9.4 6.7c.35.4.8.7 1.3.9-.2-.35-.35-.7-.4-1.15-.15-1.05.6-2.1 1.3-3-.45.2-1.45.85-1.9 1.9-.15.45-.15.9-.3 1.35z"/>
+                </svg>
+              </div>
+              <div class="skill-title-block">
+                <h3 class="skill-name">Java</h3>
+                <span class="skill-level-badge">Core Language</span>
+              </div>
+            </div>
+            <p class="skill-description">
+              Understanding Object-Oriented Programming (OOP) paradigms, classes, inheritance, abstraction, and writing structured console applications.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">OOP Fundamentals</span>
+              <span class="tag">Console Apps</span>
+              <span class="tag">Type Safety</span>
+            </div>
+          </div>
+
+          <!-- HTML Card -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper html-accent">
+                <!-- HTML5 SVG Icon -->
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                  <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.234-2.625h11.203l.235-2.625H5.438l.703 7.875h9.469l-.281 3.14-3.352.914-3.375-.914-.188-2.148H5.782l.375 4.218 5.82 1.617 5.821-1.617.797-8.977H8.531z"/>
+                </svg>
+              </div>
+              <div class="skill-title-block">
+                <h3 class="skill-name">HTML</h3>
+                <span class="skill-level-badge">Web Tech</span>
+              </div>
+            </div>
+            <p class="skill-description">
+              Building accessible, well-structured semantic web pages, ensuring clear document outlines, forms, and responsive page foundations.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Semantic HTML5</span>
+              <span class="tag">Accessibility</span>
+              <span class="tag">Web Standards</span>
+            </div>
+          </div>
+
+          <!-- Problem Solving Card -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper logic-accent">
+                <!-- Problem Solving / Brain / Puzzle SVG Icon -->
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-5.04z"></path>
+                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-5.04z"></path>
+                </svg>
+              </div>
+              <div class="skill-title-block">
+                <h3 class="skill-name">Problem Solving</h3>
+                <span class="skill-level-badge">Core Discipline</span>
+              </div>
+            </div>
+            <p class="skill-description">
+              Breaking complex coding prompts into structured logical steps, practicing algorithmic puzzles, and understanding time/space trade-offs.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Logical Thinking</span>
+              <span class="tag">Algorithmic Practice</span>
+              <span class="tag">Debugging</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foundational Tools & Learning Strip -->
+        <div class="skills-footer-strip">
+          <span class="strip-label">Foundational Knowledge:</span>
+          <div class="strip-pills">
+            <span class="pill">Object-Oriented Programming (OOP)</span>
+            <span class="pill">Basic Data Structures</span>
+            <span class="pill">CSS & Responsive Design</span>
+            <span class="pill">Git & GitHub Basics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Student Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real, practical projects developed as part of academic learning and personal practice.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio Website -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-type-tag">Web Development</div>
+              <div class="project-links">
+                <!-- Placeholder GitHub Link -->
+                <a href="https://github.com/your-username/personal-portfolio" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Repository (Placeholder)" title="Repository">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Responsive Student Portfolio</h3>
+            <p class="project-description">
+              A clean, modern personal portfolio website built with semantic HTML, custom CSS variables, and vanilla JavaScript. Designed with a dark aesthetic, full mobile responsiveness, smooth navigation, and contact form validation.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-action-row">
+              <a href="#home" class="project-action-link">
+                <span>View Live Site</span>
+                <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Student Record Management System (Java) -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-type-tag">Core Java &bull; OOP</div>
+              <div class="project-links">
+                <!-- Placeholder GitHub Link -->
+                <a href="https://github.com/your-username/student-record-system" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Repository (Placeholder)" title="Repository">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Student Record Management</h3>
+            <p class="project-description">
+              A console application implementing Object-Oriented principles in Java. Supports creating, searching, displaying, and managing student academic details with input validation and modular class structure.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">OOP</span>
+              <span class="tech-badge">Console UI</span>
+            </div>
+            <div class="project-action-row">
+              <span class="placeholder-note text-muted">Placeholder link &bull; replace with your GitHub repository</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Problem Solving & Algorithms Suite (Python) -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-type-tag">Python &bull; Algorithms</div>
+              <div class="project-links">
+                <!-- Placeholder GitHub Link -->
+                <a href="https://github.com/your-username/python-problem-solving" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Repository (Placeholder)" title="Repository">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Python Problem Solving Suite</h3>
+            <p class="project-description">
+              A curated collection of modular Python solutions for core algorithmic exercises: number theory, array operations, recursion, and string manipulation practiced as part of regular problem-solving drills.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Algorithms</span>
+              <span class="tech-badge">Logic</span>
+            </div>
+            <div class="project-action-row">
+              <span class="placeholder-note text-muted">Placeholder link &bull; replace with your GitHub repository</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Certifications & Achievements Section -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Milestones</span>
+          <h2 class="section-title">Certifications &amp; Achievements</h2>
+          <p class="section-subtitle">Placeholder slots ready for official credentials, certifications, and academic milestones.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Placeholder Certification 1 -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="cert-status-badge">Placeholder</div>
+            <h3 class="cert-title">[Certification Name - e.g., Python Programming]</h3>
+            <p class="cert-issuer">Issuer: <span>[Organization Name / Platform Placeholder]</span></p>
+            <p class="cert-date">Date: <span>[Month, Year Placeholder]</span></p>
+            <p class="cert-desc text-muted">
+              Replace this slot with course certificate details from platforms such as NPTEL, Coursera, HackerRank, or University certifications.
+            </p>
+            <div class="cert-link-placeholder">
+              <span class="link-placeholder-text">[Credential ID / Verify Link Placeholder]</span>
+            </div>
+          </div>
+
+          <!-- Placeholder Certification 2 -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="cert-status-badge">Placeholder</div>
+            <h3 class="cert-title">[Certification Name - e.g., Java Foundations]</h3>
+            <p class="cert-issuer">Issuer: <span>[Organization Name / Platform Placeholder]</span></p>
+            <p class="cert-date">Date: <span>[Month, Year Placeholder]</span></p>
+            <p class="cert-desc text-muted">
+              Add your upcoming technical certificates or workshop credentials here as you complete them during your degree.
+            </p>
+            <div class="cert-link-placeholder">
+              <span class="link-placeholder-text">[Credential ID / Verify Link Placeholder]</span>
+            </div>
+          </div>
+
+          <!-- Placeholder Achievement 1 -->
+          <div class="cert-card">
+            <div class="cert-icon-box achievement-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H7v4h10v-4h-2c-.55 0-1-.45-1-1v-2.34c3-.56 5-3.08 5-6.66V4H6v4c0 3.58 2 6.1 5 6.66z"></path>
+              </svg>
+            </div>
+            <div class="cert-status-badge">Placeholder</div>
+            <h3 class="cert-title">[Achievement - e.g., Academic Honor / Contest]</h3>
+            <p class="cert-issuer">Event: <span>[College Tech Fest / Hackathon / Contest]</span></p>
+            <p class="cert-date">Date: <span>[Academic Year Placeholder]</span></p>
+            <p class="cert-desc text-muted">
+              Document academic achievements, coding contest rankings, or technical event participations at JECRC University here.
+            </p>
+            <div class="cert-link-placeholder">
+              <span class="link-placeholder-text">[Certificate / Award Link Placeholder]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Reach Out</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Feel free to connect for academic collaborations, projects, or questions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-card">
+            <h3 class="contact-card-title">Let's Connect</h3>
+            <p class="contact-card-text">
+              I am always eager to learn, discuss computer science topics, and collaborate with peers and developers. You can reach me via the form or through the channels below.
+            </p>
+
+            <div class="contact-items-list">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Email (Placeholder)</span>
+                  <a href="mailto:your-email@example.com" class="contact-item-value">[your-email@example.com]</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">College &amp; Location</span>
+                  <span class="contact-item-value">JECRC University, Jaipur, Rajasthan</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Current Academic Status</span>
+                  <span class="contact-item-value">1st Year &bull; B.Tech CSE</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social-row">
+              <span class="contact-social-label">Profiles:</span>
+              <div class="contact-social-buttons">
+                <!-- GitHub Placeholder -->
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile (Placeholder)">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+                <!-- LinkedIn Placeholder -->
+                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile (Placeholder)">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card">
+            <h3 class="contact-card-title">Send a Message</h3>
+            <form id="contact-form" class="contact-form" novalidate>
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name <span class="required-star">*</span></label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. John Doe"
+                  required
+                  autocomplete="name"
+                >
+                <span class="form-error" id="name-error">Please enter your name (at least 2 characters).</span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required-star">*</span></label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. john@example.com"
+                  required
+                  autocomplete="email"
+                >
+                <span class="form-error" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required-star">*</span></label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="form-textarea" 
+                  rows="5" 
+                  placeholder="Type your message or inquiry here..."
+                  required
+                ></textarea>
+                <span class="form-error" id="message-error">Please enter a message (at least 10 characters).</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <span>Send Message</span>
+                <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                  <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                </svg>
+              </button>
+
+              <!-- Form Status Alerts -->
+              <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="footer-logo">
+          <span class="logo-code">&lt;</span>Aradhana<span class="logo-accent">.B</span><span class="logo-code">/&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          B.Tech Computer Science and Engineering &bull; JECRC University, Jaipur
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <p class="footer-copyright">
+          &copy; <span id="current-year"></span> Aradhana Bishnoi. All rights reserved.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#home" class="back-to-top" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
